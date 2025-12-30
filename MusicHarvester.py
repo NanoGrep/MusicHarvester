@@ -112,7 +112,7 @@ def procesar_imagen(url):
         img.save(buffer, format='JPEG', quality=85)
         return buffer.getvalue(), img.width, img.height
     except Exception as e:
-        print(f"⚠️ Error procesando imagen: {e}")
+        print(f"Error procesando imagen: {e}")
         return None, 0, 0
 
 def etiquetar_y_mover(ruta_archivo, info_dict):
