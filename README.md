@@ -33,17 +33,17 @@ pip install yt-dlp mutagen pillow requests
 #### Uso básico (sin cookies)
 
 ```
-python3 musica.py <URL>
+python3 MusicHarvester.py <URL>
 ```
 
 ```
-python3 musica.py https://music.youtube.com/playlist?list=XXXXXXXX
+python3 MusicHarvester.py https://music.youtube.com/playlist?list=XXXXXXXX
 ```
 
 #### Uso con cookies 
 
 ```
-python3 musica.py <URL> <ruta_cookies.txt>
+python3 MusicHarvester.py <URL> <ruta_cookies.txt>
 ```
 
 ```
