@@ -365,10 +365,6 @@ def procesar_url(url, ruta_cookies=None):
                 if os.path.exists(ruta_opus_local):
                     etiquetar_y_mover(ruta_opus_local, info_full)
                     
-            wait_time = random.uniform(5, 15)
-            print(f"Esperando {wait_time:.1f} segundos...")
-            time.sleep(wait_time)
-                    
     except Exception as e:
         print(f"Error general en proceso: {e}")
 
