@@ -47,6 +47,6 @@ python3 MusicHarvester.py <URL> <ruta_cookies.txt>
 ```
 
 ```
-python3 musica.py https://music.youtube.com/playlist?list=XXXXXXXX cookies.txt
+python3 MusicHarvester.py https://music.youtube.com/playlist?list=XXXXXXXX cookies.txt
 
 ```
